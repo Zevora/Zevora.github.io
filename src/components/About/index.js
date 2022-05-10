@@ -27,17 +27,13 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    First paragraphI'm very ambitious about front end development and I
-                     really like doing import PropTypes from 'prop-types'
+                    Lyan Peña (he/him) is a web developer based in the United States.
                 </p>
                 <p>
-                    Second Paragrah defaultdgsg       dfkjk  frol   dfdf;
-                        f    frolf very v   vc  x   strArray
+                    He has a passion for creating beautiful, intuitive, and accessible software and websites.
                 </p>
                 <p>
-                    these nuts gotteeem 
-                    this paragram 2
-                    this paragrah 3
+                    Lyan obtained his Bachelor's degree in Computer Science from Florida Polytechnic University.
                 </p>
             </div>
             <div className='stage-cube-cont'>

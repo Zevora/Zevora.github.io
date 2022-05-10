@@ -32,7 +32,7 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={22}/>     {/*using the animation to replace web developer*/}
                 </h1>
-                <h2>Frontend Developer / JavaScript Expert / Youtuber</h2>
+                <h2>Computer Scientist / Web Developer </h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link> 
             </div>
             {/* <Logo /> */}

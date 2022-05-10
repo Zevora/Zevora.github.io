@@ -49,7 +49,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in Software Development, Web Developmentm and Game Design - especially ambitious or large projects. I am also interested in learning new technologies and languages.
+                        I am interested in Web Development, Software Development and Game Design - especially ambitious or large projects. I am also interested in learning new technologies and languages.
                         If you are interested in working with me, or have any questions, please feel free to contact me.
                     </p>
                     <div className="contact-form">
