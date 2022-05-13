@@ -12,7 +12,7 @@ const Home = () => {
     const jobArray = ['w', 'e', 'b', ' ' , 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
 
     useEffect(() => {
-        return setTimeout(() => {
+         setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, [])
@@ -33,7 +33,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={22}/>     {/*using the animation to replace web developer*/}
                 </h1>
                 <h2>Computer Scientist / Web Developer </h2>
-                <Link to="/contact" className="flat-button">CONTACT ME</Link> 
+                <Link to="contact" className="flat-button">CONTACT ME</Link> 
             </div>
             {/* <Logo /> */}
             <img src={LogoTitle} alt="logo" className='logo' />
