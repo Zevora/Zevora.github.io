@@ -22,7 +22,8 @@ const About = () => {
                 <h1>
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
+                        // strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']}
+                        strArray={"About Me".split("")}
                         index={15} // 1.5 seconds
                     />
                 </h1>

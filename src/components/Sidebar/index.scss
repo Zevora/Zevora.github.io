@@ -82,11 +82,19 @@
             }
         }
 
+        a.portfolio-link {
+            &:after {
+                letter-spacing: 1px;
+                content: 'PORTFOLIO';
+            }
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT';
             }
         }
+
 
         a.active {
             svg {
