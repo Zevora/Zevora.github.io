@@ -7,16 +7,16 @@
             "link": "https://github.com/Zevora/Chemistry-Learning-Aid"
         },
         {
-            "name": "Portfolio 2",
-            "description": "This is a portfolio description",
+            "name": " VeriTread-Client-Auditing-Solutions",
+            "description": "This project is to create solutions for the Online Freight Broker VeriTread. It will be used to pull the appropriate information from both potential client's and already registered client's information that have been updated via RMIS' APIs.",
             "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2728&q=80",
-            "link": "https://github.com/Zevora"
+            "link": "https://github.com/Jwade1781/VeriTread-Client-Auditing-Solutions"
         },
         {
-            "name": "Portfolio 3",
-            "description": "This is a portfolio description",
+            "name": "Momentum",
+            "description": "Momentum is a fast-paced temple-run like game where you dodge obstacles on a track until you reach the end of the level. The goal is to be challenging while still being enjoyable.",
             "image": "https://images.unsplash.com/photo-1658240527554-9cf987b4de49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80",
-            "link": "https://github.com/Zevora"
+            "link": "https://github.com/Zevora/Momentum"
         },
         {
             "name": "Portfolio 4",
