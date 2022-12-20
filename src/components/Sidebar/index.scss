@@ -127,3 +127,61 @@
         }
     }
 }
+
+.hamburger-icon, .hamburger-close-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-bar {
+        background: transparent;
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        ul, nav {
+            display: none;
+        }
+
+        nav {
+            width: 100%;
+            height: fit-content;
+            //padding-bottom: 10px;
+            background: #181818;
+            top: 0;
+            left: 0;
+            position: fixed;
+            z-index: 2;
+            margin: 0;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            a:after {
+                opacity: 1;
+                position: initial;
+                width: auto;
+                margin-left: 10px;
+            }
+
+            a svg {
+                opacity: 1 !important;
+            }
+
+            &.mobile-show {
+                display: block;
+            }
+        }
+
+        .hamburger-icon, .hamburger-close-icon {
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        
+    }
+}

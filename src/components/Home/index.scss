@@ -99,3 +99,49 @@
 
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .tags, .home-page h1::before, .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        .logo {
+            position: relative;
+            width: 100px;
+            height: auto;
+            top:50px;
+            right: 0;
+            left: 40%;  //before this it was stuck left
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        svg {
+            position: absolute;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            margin: auto;
+        }
+
+        
+    }
+
+}
