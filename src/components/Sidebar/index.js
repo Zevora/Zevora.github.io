@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-L.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faCode, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faCode, faBars, faClose, faRunning } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
@@ -30,6 +30,9 @@ const Sidebar = () => {
                 <NavLink exact="true" activeclassname="active" className="contact-link" to='contact' onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
                 </NavLink>
+                {/* <NavLink exact="true" activeclassname="active" className="running-link" to='running' onClick={() => setShowNav(false)}>
+                    <FontAwesomeIcon icon={faRunning} color='#4d4d4e' />
+                </NavLink> */}
                 <FontAwesomeIcon
                     onClick={() => setShowNav(false)}
                         icon={faClose}
